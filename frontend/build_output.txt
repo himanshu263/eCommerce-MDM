@@ -1,0 +1,13 @@
+
+> myapp-frontend@3.0.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 99 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.39 kB │ gzip:   0.27 kB
+dist/assets/index-DuaG3-El.css   40.01 kB │ gzip:   6.81 kB
+dist/assets/index-4pqXnh_V.js   383.92 kB │ gzip: 102.28 kB
+✓ built in 1.03s
