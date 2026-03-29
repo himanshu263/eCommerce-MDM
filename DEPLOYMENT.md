@@ -46,7 +46,7 @@ Enable ESM Apps to receive additional future security updates.
 See https://ubuntu.com/esm or run: sudo pro status
 
 
-5 updates could not be installed automatically. For more details,see /var/log/unattended-upgrades/unattended-upgrades.log                   git clone   `https://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@github.com/himanshu263/eCommerce-MDM.git`
+5 updates could not be installed automatically. For more details,see /var/log/unattended-upgrades/unattended-upgrades.log                   git clone   `https://github.com/himanshu263/eCommerce-MDM.git`
 86:~# git clone https://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@github.com/himanshu263/eComCloning into 'eCommerce-MDM'...
 remote: Write access to repository not granted.
 fatal: unable to access 'https:https://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@github.com/himanshu263/eC
