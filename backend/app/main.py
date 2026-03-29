@@ -59,11 +59,11 @@ async def upload_image(file: UploadFile = File(...), _=Depends(get_current_user)
     return {"url": f"/uploads/{name}", "filename": name}
 
 
-@app.get("/", tags=["Health"])
+@app.get("/api/", tags=["Health"])
 def root():
     return {"status": "ok", "app": settings.APP_NAME, "phase": "3.1"}
 
 
-@app.get("/health", tags=["Health"])
+@app.get("/api/health", tags=["Health"])
 def health():
     return {"status": "healthy", "database": "postgresql", "version": "3.1.0"}
